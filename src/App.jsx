@@ -1,4 +1,5 @@
 import './App.css'
+import Features from './components/Features'
 import Hero from './components/Hero'
 import Message from './components/Message'
 import Navbar from './components/Navbar'
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Message />
       <Story />
+      <Features />
     </div>
   )
 }
