@@ -6,6 +6,8 @@ import Message from './components/Message'
 import Navbar from './components/Navbar'
 import Quote from './components/Quote'
 import Story from './components/Story'
+import Teachers from './components/Teachers'
+import Stats from './components/stats'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <Features />
       <Quote />
       <Directions />
+      <Stats />
+      <Teachers />
     </div>
   )
 }
